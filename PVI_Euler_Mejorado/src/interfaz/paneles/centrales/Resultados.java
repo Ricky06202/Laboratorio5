@@ -1,5 +1,7 @@
 package interfaz.paneles.centrales;
 
-public class Resultados extends Central{
+import interfaz.paneles.centrales.caracteristicas.Contenedor;
+
+public class Resultados extends Contenedor{
     
 }

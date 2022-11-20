@@ -4,8 +4,19 @@ import java.awt.Color;
 
 public final class Colores {
     
+    public final static Color 
+        barraAcciones = ponerColor("fffac1"),
+        central = ponerColor("fffbf3"),
+        menu = ponerColor("ea7e2e"),
+        boton = ponerColor("ea7e2e"),
+        botonSeleccionado = ponerColor("d74021"),
+        letraBoton = ponerColor("fffac1"),
+        botonChico = ponerColor("fffac1"),
+        botonChicoSeleccionado = ponerColor("fffbf3"),
+        letraBotonChico = ponerColor("d74021")
+    ;
 
-    private Color ponerColor(String hexadecimal){
+    private static Color ponerColor(String hexadecimal){
         int rgb = Integer.parseInt(hexadecimal, 16);
         return new Color(rgb);
     }
