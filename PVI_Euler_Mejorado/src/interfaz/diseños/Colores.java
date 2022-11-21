@@ -12,8 +12,13 @@ public final class Colores {
         botonSeleccionado = ponerColor("d74021"),
         letraBoton = ponerColor("fffac1"),
         botonChico = ponerColor("fffac1"),
-        botonChicoSeleccionado = ponerColor("fffbf3"),
-        letraBotonChico = ponerColor("d74021")
+        botonChicoSeleccionado = ponerColor("fff470"),
+        letraBotonChico = ponerColor("d74021"),
+        texto = ponerColor("d74021"),
+        titulo = ponerColor("d74021"),
+        campo = ponerColor("fffac1"),
+        letraSugerenciaCampo = ponerColor("ea7e2e"),
+        letraCampo = ponerColor("d74021")
     ;
 
     private static Color ponerColor(String hexadecimal){

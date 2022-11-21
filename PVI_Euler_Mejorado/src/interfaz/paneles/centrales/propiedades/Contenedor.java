@@ -1,4 +1,4 @@
-package interfaz.paneles.centrales.caracteristicas;
+package interfaz.paneles.centrales.propiedades;
 
 import javax.swing.JPanel;
 

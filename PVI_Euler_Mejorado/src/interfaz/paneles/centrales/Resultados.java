@@ -1,6 +1,6 @@
 package interfaz.paneles.centrales;
 
-import interfaz.paneles.centrales.caracteristicas.Contenedor;
+import interfaz.paneles.centrales.propiedades.Contenedor;
 
 public class Resultados extends Contenedor{
     

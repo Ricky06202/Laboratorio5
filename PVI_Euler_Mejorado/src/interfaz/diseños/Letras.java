@@ -5,9 +5,10 @@ import java.awt.Font;
 public final class Letras {
     
     public final static Font
-        titulo = ponerLetra("Magneto", 1, 20),
-        boton = ponerLetra("Forte", 1, 20),
-        botonChico = ponerLetra("Cooper Black", 0, 20),
+        titulo = ponerLetra("Magneto", 1, 40),
+        boton = ponerLetra("Forte", 1, 30),
+        botonLetraChica = ponerLetra("Forte", 1, 29),
+        botonChico = ponerLetra("Cooper Black", 1, 30),
         texto = ponerLetra("Segoe Print", 0, 20)
     ;
 

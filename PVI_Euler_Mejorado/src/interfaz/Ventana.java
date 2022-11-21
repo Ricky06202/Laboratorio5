@@ -1,22 +1,25 @@
 package interfaz;
 
 import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 import java.awt.BorderLayout;
 
+import interfaz.interacciones.ArrastrarVentana;
 import interfaz.paneles.acciones.BarraAcciones;
 import interfaz.paneles.menu.Menu;
 import interfaz.paneles.centrales.*;
 
 public class Ventana extends JFrame{
-    private JPanel barraAcciones, menu,
-        central, datos, presentacion, resultados;
+    private Central central;
+
+    public int xMouse, yMouse;
+
     public Ventana(){
         setSize(1000,700);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
+        setUndecorated(true);
         setLayout(new BorderLayout());
         inicializarComponentes();
         
@@ -24,13 +27,17 @@ public class Ventana extends JFrame{
     }
 
     public void inicializarComponentes(){
-        barraAcciones = new BarraAcciones();
+        var barraAcciones = new BarraAcciones(this);
+        barraAcciones.addMouseListener(new ArrastrarVentana(this));
+        barraAcciones.addMouseMotionListener(new ArrastrarVentana(this));
         add(barraAcciones, BorderLayout.NORTH);
-
-        menu = new Menu();
-        add(menu, BorderLayout.WEST);
-
+        
         central = new Central();
         add(central, BorderLayout.CENTER);
+
+        var menu = new Menu(central);
+        add(menu, BorderLayout.WEST);
+
+        
     }
 }
