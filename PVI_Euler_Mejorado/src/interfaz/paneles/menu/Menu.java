@@ -8,6 +8,7 @@ import javax.swing.JPanel;
 import interfaz.botones.Boton;
 import interfaz.diseños.Colores;
 import interfaz.diseños.Letras;
+import interfaz.interacciones.CambiarPanelBoton;
 import interfaz.paneles.centrales.Central;
 
 public class Menu extends JPanel{
@@ -20,8 +21,13 @@ public class Menu extends JPanel{
         var datos = new Boton("Datos");
         var resultados = new Boton("Resultados");
 
-        //TODO hacer q funcionen estos botones y que permanezcan seleccionado hasta q otro le de clic
-        //TODO hacerlo usando instanceof
+        presentacion.panel = central.presentacion;
+        datos.panel = central.datos;
+        resultados.panel = central.resultados;
+
+        presentacion.addActionListener(new CambiarPanelBoton(presentacion, central));
+        datos.addActionListener(new CambiarPanelBoton(datos, central));
+        resultados.addActionListener(new CambiarPanelBoton(resultados, central));
 
         add(presentacion);
         add(datos);

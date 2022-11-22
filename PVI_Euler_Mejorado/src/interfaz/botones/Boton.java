@@ -8,11 +8,13 @@ import javax.swing.JButton;
 import interfaz.diseños.Colores;
 import interfaz.diseños.Letras;
 import interfaz.interacciones.CambiarColorBoton;
+import interfaz.paneles.centrales.propiedades.Contenedor;
 
 import java.awt.Color;
 
 public class Boton extends JButton{
-    Color normal = Colores.boton, seleccionado = Colores.botonSeleccionado;
+    public Color normal = Colores.boton, seleccionado = Colores.botonSeleccionado;
+    public Contenedor panel;
     public Boton(String texto){
         super(texto);
         setBorderPainted(false);

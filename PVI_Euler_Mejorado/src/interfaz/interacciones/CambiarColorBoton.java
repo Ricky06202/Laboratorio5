@@ -20,7 +20,6 @@ public class CambiarColorBoton implements MouseInputListener{
 
     @Override
     public void mouseClicked(MouseEvent arg0) {
-        // TODO Auto-generated method stub
         
     }
 
@@ -38,25 +37,21 @@ public class CambiarColorBoton implements MouseInputListener{
 
     @Override
     public void mousePressed(MouseEvent arg0) {
-        // TODO Auto-generated method stub
         
     }
 
     @Override
     public void mouseReleased(MouseEvent arg0) {
-        // TODO Auto-generated method stub
         
     }
 
     @Override
     public void mouseDragged(MouseEvent arg0) {
-        // TODO Auto-generated method stub
         
     }
 
     @Override
     public void mouseMoved(MouseEvent arg0) {
-        // TODO Auto-generated method stub
         
     }
     

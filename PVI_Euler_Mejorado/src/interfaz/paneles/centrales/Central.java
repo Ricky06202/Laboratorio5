@@ -3,6 +3,7 @@ package interfaz.paneles.centrales;
 import javax.swing.JPanel;
 
 import interfaz.diseños.Colores;
+import interfaz.paneles.centrales.presentacion.Presentacion;
 import interfaz.paneles.centrales.propiedades.Contenedor;
 
 import java.awt.GridLayout;

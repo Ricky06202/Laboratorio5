@@ -9,7 +9,7 @@ public final class Letras {
         boton = ponerLetra("Forte", 1, 30),
         botonLetraChica = ponerLetra("Forte", 1, 29),
         botonChico = ponerLetra("Cooper Black", 1, 30),
-        texto = ponerLetra("Segoe Print", 0, 20)
+        texto = ponerLetra("Segoe Print", 0, 30)
     ;
 
     private static Font ponerLetra(String nombre, int estilo, int tamaño){

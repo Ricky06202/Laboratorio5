@@ -7,7 +7,7 @@ import interfaz.diseños.Letras;
 
 public class Titulo extends Texto{
 
-    private String texto = "Euler Mejorado";
+    String texto = "Euler Mejorado";
 
     public Titulo() {
         super(Letras.titulo);
