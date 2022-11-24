@@ -15,5 +15,6 @@ public class BarraAcciones extends JPanel{
         setLayout(new BorderLayout());
         add(new Acciones(ventana), BorderLayout.EAST);
         add(new Titulo(), BorderLayout.CENTER);
+        add(new Logo(), BorderLayout.WEST);
     }
 }
