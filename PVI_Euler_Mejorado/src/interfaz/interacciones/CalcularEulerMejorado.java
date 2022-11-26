@@ -62,6 +62,8 @@ public class CalcularEulerMejorado implements ActionListener{
             var fila = new Object[] {contador, formato(euler.getxActual()), formato(euler.getyActual())};
             salida.tabla.modelo.addRow(fila);
         }
+
+        JOptionPane.showMessageDialog(datos, "Listo!! puede ver los calculos en la seccion de \"Resultados\"", "TAREA REALIZADA EXITOSAMENTE", JOptionPane.INFORMATION_MESSAGE, null);
     }
 
     private String formato(double n){
