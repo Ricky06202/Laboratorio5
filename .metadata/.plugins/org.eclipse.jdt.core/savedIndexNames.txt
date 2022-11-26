@@ -1,4 +1,4 @@
-INDEX VERSION 1.131+C:\Users\Ricky\Documents\Programacion\Universidad\Prog-Metodos-Numericos\Laboratorio5\.metadata\.plugins\org.eclipse.jdt.core
-2289779478.index
-4123552910.index
+INDEX VERSION 1.131+C:\Users\ricar\Documents\Programacion\Universidad\Prog-Metodos-Numericos\Laboratorio5\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
+79758559.index
+2289779478.index
