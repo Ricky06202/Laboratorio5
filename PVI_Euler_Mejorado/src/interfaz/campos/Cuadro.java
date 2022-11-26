@@ -14,6 +14,8 @@ public class Cuadro extends JTextField {
     public Cuadro(String textoSugerencia) {
         setFont(Letras.texto);
         setForeground(sugerencia);
-        addMouseListener(new ReponerSugerenciaCuadro(this, normal, sugerencia, textoSugerencia));
+        setHorizontalAlignment(CENTER);
+        setText(textoSugerencia);
+        addFocusListener(new ReponerSugerenciaCuadro(this, normal, sugerencia, textoSugerencia));
     }
 }

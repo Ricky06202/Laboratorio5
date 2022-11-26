@@ -5,7 +5,6 @@ import java.awt.event.ActionListener;
 
 import interfaz.botones.Boton;
 import interfaz.paneles.centrales.Central;
-import interfaz.paneles.menu.Menu;
 
 public class CambiarPanelBoton implements ActionListener{
 

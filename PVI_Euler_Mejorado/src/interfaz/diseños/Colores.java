@@ -18,7 +18,10 @@ public final class Colores {
         titulo = ponerColor("d74021"),
         campo = ponerColor("fffac1"),
         letraSugerenciaCampo = ponerColor("ea7e2e"),
-        letraCampo = ponerColor("d74021")
+        letraCampo = ponerColor("d74021"),
+        tabla = ponerColor("fffbf3"),
+        letraTitulotabla = letraBoton,
+        tituloTabla = menu
     ;
 
     private static Color ponerColor(String hexadecimal){

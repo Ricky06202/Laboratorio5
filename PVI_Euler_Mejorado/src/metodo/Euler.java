@@ -24,7 +24,7 @@ public abstract class Euler {
         return String.format("x = %f, y = %f", xActual, yActual);
     }
 
-    public void calcularH(){
+    private void calcularH(){
         h = (xn - x0) / n;
     }
 
